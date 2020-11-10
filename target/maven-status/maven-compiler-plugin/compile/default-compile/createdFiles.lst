@@ -1,0 +1,5 @@
+com\opstty\job\WordCount.class
+com\opstty\mapper\TokenizerMapper.class
+com\opstty\AppDriver.class
+com\opstty\reducer\IntSumReducer.class
+.netbeans_automatic_build

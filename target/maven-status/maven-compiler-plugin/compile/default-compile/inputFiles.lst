@@ -1,4 +1,7 @@
 C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\job\WordCount.java
 C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\mapper\TokenizerMapper.java
+C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\reducer\DistrictContainingReducer.java
 C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\AppDriver.java
+C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\mapper\DistrictContainingMapper.java
+C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\job\DistrictContainingTrees.java
 C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\reducer\IntSumReducer.java

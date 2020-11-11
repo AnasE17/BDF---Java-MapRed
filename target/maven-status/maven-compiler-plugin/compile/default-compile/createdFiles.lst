@@ -1,5 +1,7 @@
+com\opstty\AppDriver.class
+com\opstty\reducer\DistrictContainingReducer.class
+com\opstty\reducer\IntSumReducer.class
 com\opstty\job\WordCount.class
 com\opstty\mapper\TokenizerMapper.class
-com\opstty\AppDriver.class
-com\opstty\reducer\IntSumReducer.class
-.netbeans_automatic_build
+com\opstty\mapper\DistrictContainingMapper.class
+com\opstty\job\DistrictContainingTrees.class

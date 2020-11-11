@@ -25,10 +25,10 @@ public class ShowExistingSpecies {
         Configuration conf = new Configuration();
         String[] otherArgs = new GenericOptionsParser(conf, args).getRemainingArgs();
         if (otherArgs.length < 2) {
-            System.err.println("Usage: existing_species <in> [<in>...] <out>");
+            System.err.println("Usage: show_existing_species <in> [<in>...] <out>");
             System.exit(2);
         }
-        Job job = Job.getInstance(conf, "existing_species");
+        Job job = Job.getInstance(conf, "show_existing_species");
         job.setJarByClass(ShowExistingSpecies.class);
         job.setMapperClass(SpeciesMapper.class);
         job.setCombinerClass(SpeciesReducer.class);

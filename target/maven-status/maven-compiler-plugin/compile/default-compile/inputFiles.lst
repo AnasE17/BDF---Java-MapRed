@@ -1,7 +1,16 @@
 C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\job\WordCount.java
-C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\mapper\TokenizerMapper.java
+C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\mapper\MaxHeightMapper.java
+C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\reducer\MaxHeightReducer.java
+C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\job\NumberTreesSpecies.java
+C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\mapper\SpeciesMapper.java
+C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\job\ShowExistingSpecies.java
+C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\reducer\NumberTreesReducer.java
 C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\reducer\DistrictContainingReducer.java
 C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\AppDriver.java
 C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\mapper\DistrictContainingMapper.java
+C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\mapper\NumberTreesMapper.java
+C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\reducer\SpeciesReducer.java
+C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\job\MaxHeightSpecies.java
+C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\mapper\TokenizerMapper.java
 C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\job\DistrictContainingTrees.java
 C:\Users\anas_\Desktop\hadoop-java-mapreduce\hadoop-examples-mapreduce\src\main\java\com\opstty\reducer\IntSumReducer.java

@@ -1,8 +1,10 @@
 com\opstty\reducer\SpeciesReducer.class
+com\opstty\job\SortSmalltoLarge.class
 com\opstty\AppDriver.class
 com\opstty\reducer\DistrictContainingReducer.class
 com\opstty\job\ShowExistingSpecies.class
 com\opstty\mapper\TokenizerMapper.class
+com\opstty\reducer\SortReducer.class
 com\opstty\mapper\NumberTreesMapper.class
 com\opstty\reducer\MaxHeightReducer.class
 com\opstty\job\NumberTreesSpecies.class
@@ -11,6 +13,7 @@ com\opstty\mapper\MaxHeightMapper.class
 com\opstty\reducer\IntSumReducer.class
 com\opstty\job\WordCount.class
 com\opstty\mapper\SpeciesMapper.class
+com\opstty\mapper\SortMapper.class
 com\opstty\mapper\DistrictContainingMapper.class
 com\opstty\job\DistrictContainingTrees.class
 com\opstty\reducer\NumberTreesReducer.class

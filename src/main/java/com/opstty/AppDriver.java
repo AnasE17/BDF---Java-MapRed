@@ -11,7 +11,7 @@ public class AppDriver {
         ProgramDriver programDriver = new ProgramDriver();
 
         try {
-            programDriver.addClass("max_height_species", MaxHeightSpecies.class,
+            programDriver.addClass("sort", SortSmalltoLarge.class,
                     "A map/reduce program that counts the words in the input files.");
 
             exitCode = programDriver.run(argv);

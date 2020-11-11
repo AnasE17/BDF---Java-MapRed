@@ -21,7 +21,7 @@ import org.apache.hadoop.util.GenericOptionsParser;
  * @author anas_
  */
 public class ShowExistingSpecies {
-    public static void main(String[] args) throws Exception {
+     public static void main(String[] args) throws Exception {
         Configuration conf = new Configuration();
         String[] otherArgs = new GenericOptionsParser(conf, args).getRemainingArgs();
         if (otherArgs.length < 2) {
@@ -35,6 +35,8 @@ public class ShowExistingSpecies {
         job.setReducerClass(SpeciesReducer.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
+        job.setMapOutputKeyClass(Text.class);
+        job.setMapOutputValueClass(IntWritable.class);
         for (int i = 0; i < otherArgs.length - 1; ++i) {
             FileInputFormat.addInputPath(job, new Path(otherArgs[i]));
         }

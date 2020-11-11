@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 public class NumberTreesMapper extends Mapper<Object, Text, Text, IntWritable> {
     private final static IntWritable one = new IntWritable(1);
-    private Text word = new Text();
+    private Text text = new Text();
 
     public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
         try {
@@ -16,9 +16,8 @@ public class NumberTreesMapper extends Mapper<Object, Text, Text, IntWritable> {
             else {
                 StringTokenizer i = new StringTokenizer(value.toString(), "\n");
                 while (i.hasMoreTokens()) {
-
-                    word.set(i.nextToken().split(";")[3]);
-                    context.write(word, one);
+                    text.set(i.nextToken().split(";")[3]);
+                    context.write(text, one);
                 }
             }
         } catch (Exception e) {
